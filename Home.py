@@ -6,10 +6,10 @@ import requests
 from get_results import *
 import assemblyai as aai
 # AssemblyAI API endpoint for audio/video transcription
-ASSEMBLYAI_ENDPOINT = "https://api.assemblyai.com/v2/transcript"
+ASSEMBLYAI_ENDPOINT = ""
 
 # Your AssemblyAI API key (replace with your actual API key)
-ASSEMBLYAI_API_KEY = "d2d4a318dbd14ecfa920c5ff195e49e4"
+ASSEMBLYAI_API_KEY = ""
 # load json data to show initial data
 response = open('./json/response.json')
 data = json.load(response)
